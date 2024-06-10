@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles1.css">
+    <title>Farm Minds - Blog</title>
+</head>
+<body>
+<header class="header">
+    <nav>
+        <div class="nav__bar">
+            <div class="logo">
+                <a href="#"> <div class="header__main" style="color: black;">Farm Minds</div></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav__btn">Order Now</button>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="blog-page">
+        <img src="https://via.placeholder.com/800x400" alt="Aquaphonic Tank">
+        <h1>How to Install Aquaphonic Fish and Plant Tank</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel felis vitae dui ultrices gravida. Morbi quis tortor nunc. Vivamus sollicitudin euismod urna, ac dignissim justo.</p>
+        <h2>Materials Needed</h2>
+        <ul>
+            <li>Fish tank</li>
+            <li>Water pump</li>
+            <li>Grow bed</li>
+            <li>Hydroton or other growing medium</li>
+            <li>Fish</li>
+            <li>Plants</li>
+        </ul>
+        <h2>Step-by-Step Instructions</h2>
+        <h3>Step 1: Setup the Fish Tank</h3>
+        <p>Fill the tank with water and install the water pump. Make sure to cycle the tank for at least 24 hours before adding fish.</p>
+        <h3>Step 2: Install the Grow Bed</h3>
+        <p>Place the grow bed on top of the fish tank and fill it with the growing medium.</p>
+        <h3>Step 3: Add the Plants</h3>
+        <p>Plant your chosen vegetables or herbs into the grow bed.</p>
+        <h3>Step 4: Add the Fish</h3>
+        <p>Introduce the fish into the tank after ensuring the water conditions are suitable.</p>
+        <h2>Maintenance Tips</h2>
+        <p>Regularly check the water quality and maintain the pump. Ensure that the plants and fish are healthy and thriving.</p>
+    </div>
+
+    <aside class="sidebar">
+        <h3>Other Blogs</h3>
+        <ul>
+            <li><a href="blog1.html">How to Grow Organic Tomatoes</a></li>
+            <li><a href="blog2.html">Top 10 Herbs for Your Garden</a></li>
+            <li><a href="blog3.html">Benefits of Crop Rotation</a></li>
+        </ul>
+    </aside>
+</div>
+
+<footer>
+    &copy; 2024 Farm Minds. All rights reserved.
+</footer>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+    });
+</script>
+</body>
+</html>

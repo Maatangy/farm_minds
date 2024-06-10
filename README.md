@@ -8,9 +8,6 @@ Welcome to the repository for the Farm Minds Aquaponics Fish Tank landing page. 
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [File Structure](#file-structure)
-7. [Contributing](#contributing)
-8. [Contact](#contact)
 
 ## Project Overview
 
